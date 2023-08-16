@@ -1,0 +1,148 @@
+.body{
+   margin:0;
+   padding:0;
+   font-family: 'Manrope', sans-serif;
+}
+
+html,body{
+   height:100%;
+}
+
+a{
+   text-decoration:none;
+}
+
+.conteiner{
+   width:1115px;
+   margin:0 auto;
+}
+
+.header{
+   height:72px;
+   border-bottom:1px solid #E5E9F2;
+}
+
+.header-menu{
+   display:flex;
+   align-items:center;
+   height:40px;
+   padding-top:16px;
+}
+
+.logo{
+   width:129px;
+   height:28px;
+}
+
+.header-nav-a{
+   font-size:14px;
+   font-weight:bold;
+   color:#18191F;
+   margin-left:32px;
+}
+
+.header-store{
+   margin-left:auto;
+}
+
+.google-play{
+   width:135px;
+   height:40px;
+}
+
+.app-store{
+   width:135px;
+   height:40px;
+   margin-left:12px;
+}
+
+.section-content{
+   display:flex;
+   justify-content:space-between;
+   padding:197px 0;
+}
+
+.content{
+   max-width:540px;
+}
+
+.content-title{
+   font-weight:800; 
+   font-size:72px;
+   margin-bottom:16px;
+}
+
+.content-p{
+   font-size:18px;
+   font-weight:400; 
+   margin-bottom:32px;
+   max-width:510px;
+}
+
+.content-button{
+   color:#fff;
+   font-size:20px;
+   font-weight:700;
+   background: #8C30F5;
+   border-radius: 8px;
+   height:62px;
+   width:284px;
+   border:none;
+   cursor:pointer;
+}
+
+.section-image{
+   width:524px;
+   height:400px;
+}
+
+.footer{
+   height:72px;
+   background-color:#0B0D17;
+}
+
+.footer-menu{
+   height:34px;
+   padding-top:19px;
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+}
+
+.footer-protection{
+   font-size:14px; 
+   font-weight:400;
+   color:#D9DBE1
+}
+
+.instagram{
+   width:34px;
+   height:34px;
+}
+
+.dribbble{
+   width:34px;
+   height:34px;
+   margin-left:16px;
+}
+
+.twitter{
+   width:34px;
+   height:34px;
+   margin-left:16px;
+}
+
+.youtube{
+   width:34px;
+   height:34px;
+   margin-left:16px;
+}
+
+@media(max-width: 1200px){
+   .conteiner{
+      width:992px;
+   }
+   .section-image{
+      display: none;
+   }
+}
